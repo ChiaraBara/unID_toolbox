@@ -1,0 +1,38 @@
+unID - Matlab toolbox for the estimation of the Information Decomposition terms in the univariate framework
+
+References:
+- C Barà, R Pernice, CA Catania, M Hilal, A Porta, A Humeau-Heurtier, L Faes, 'Comparison of Entropy Rate Measures for the Evaluation of Time Series Complexity: Simulations and Application to Heart Rate and Respiratory Variability'. Submitted to Biocybernetics and Biomedical Engineering, 2023.
+- W Xiong, L Faes, P Ch Ivanov, 'Entropy measures, entropy estimators and their performance in quantifying complex dynamics: effects of artifacts, nonstationarity and long-range correlations', Phys. Rev. E, 2017; 95:062114.
+
+Demonstration scripts
+_____________________
+Simulation - Complexity analysis for a simulated univariate linear Gaussian system as the strength of the stochastic oscillation varies
+Application - Complexity analysis of cardiac dynamics for a representative subject (load data_RR.mat)
+
+Main computational functions
+_____________________________
+unID_buildvectors - Generate of the observation matrix
+unID_H - Calculate entropy for discrete multidimensional variable by using the frequentistic approach
+unID_lin - Compute the information decomposition terms (entropy, conditional entropy, information storge and dynamic entropies) via the linear parametric approach using the observarion matrix
+unID_ARorder - Model order selection for the identification of the AR model
+unID_LinReg - Performe the linear regression through least squares model identification
+unID_knn_mex - Compute the information decomposition terms (entropy, conditional entropy, information storge and dynamic entropies) via the model-free k-nearest neighbor approach using the observarion matrix (this makes use of closed mex functions)
+unID_knn - Compute the information decomposition terms (entropy, conditional entropy, information storge and dynamic entropies) via the model-free k-nearest neighbor approach using the observarion matrix 
+unID_ker - Compute the information decomposition terms (entropy, conditional entropy, information storge and dynamic entropies) via the model-free kernel approach using the observarion matrix 
+unID_bin - Compute the information decomposition terms (entropy, conditional entropy, information storge and dynamic entropies) via the binning approach using the observarion matrix 
+uniID_quantization - Discretize a series by using the binning approach
+unID_perm - Compute the information decomposition terms (conditional entropy and dynamic entropies) via the permutation approach using the observarion matrix 
+unID_slope - Compute the information decomposition terms (conditional entropy and dynamic entropies) via the slope approach using the observarion matrix 
+unID_Hlin - Compute entropy via the linear parametric approach using the observarion matrix
+unID_Hknn_mex - Compute entropy via the model-free k-nearest neighbor approach using the observarion matrix (this makes use of closed mex functions)
+unID_Hknn - Compute entropy via the model-free k-nearest neighbor approach using the observarion matrix 
+unID_Hker - Compute entropy via the model-free kernel approach using the observarion matrix 
+unID_Hbin - Compute entropy via the binning approach using the observarion matrix 
+
+Other functions
+________________
+detrend_AR_filter - High-pass autoregressive filter
+its_CElinVAR1 - Compute theoretical values of the information decomposition terms from the AR model parameters for a linear Gaussian process
+var_filter - Filter a vector noise with a specified AR model
+var_simulations - Find theoretical parameters for a simulated AR process
+nn_search, nn_prepare, range_search - mex functions for nearest neighbors searching and counting
