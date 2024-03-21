@@ -13,7 +13,7 @@ function out=unID_knn(B,k,metric)
 
     A=B(:,2:end);
     N=size(B,1);
-    m=size(A,2)-1;
+    m=size(A,2);
 
     %% kNN analysis
     %%% neighbor search in space of higher dimension    
