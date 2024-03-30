@@ -24,7 +24,7 @@ function B=unID_buildvectors(Y,j,V)
                 A(n-Lmax,i)=Y(n-V(i,2),V(i,1)); 
             end
         end
-        B=[Y((Lmax+1:N)',j) A]; % add current value
+        B=[Y(Lmax+1:N,j) A]; % add current value
     end
     
 end
