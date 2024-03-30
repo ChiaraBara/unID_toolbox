@@ -8,7 +8,7 @@
 
 function H=unID_H(A,base)
 
-    if nargin<2, base=2; end %defaul entropy in bits
+    if nargin<2, base=2; end %default entropy in bits
 
     Np=size(A,1); %total number of patterns
     [C,~,ic] = unique(A,'rows');
