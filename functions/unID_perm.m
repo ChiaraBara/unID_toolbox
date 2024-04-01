@@ -1,4 +1,4 @@
-%% decomposition of th Mutual Information Rate
+%% Permutation-based Estimation of the Conditional Entropy
 % Computes the terms of the information decomposition in the univariate framework
 % by using the observation matrix B
 
