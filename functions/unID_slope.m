@@ -11,7 +11,7 @@ function out = unID_slope(B,delta,gamma,base)
     [N,M]=size(Bdiff);
 
     %%% slope vector
-    Bs = zeros(size(Bdiff));
+    Bs = zeros(N,M);
     %%% discretization procedure
     for in = 1:N
         for im = 1:M           
