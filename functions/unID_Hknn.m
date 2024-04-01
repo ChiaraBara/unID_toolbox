@@ -1,5 +1,5 @@
-%% k-nearest neighbor Estimation of the Conditional Entropy
-% Computes entropy by using the observation matrix B (which coincide with the signal)
+%% k-nearest neighbor Estimation of entropy
+% Computes entropy by using the observation matrix B (which coincides with the signal)
 
 % INPUT: embedding matrix B, number of neighbors k, distance metric:
 % 'maximum' Chebyshev distance (default)
