@@ -1,5 +1,5 @@
-%% Linear Gaussian Estimation of the Conditional Entropy
-% Computes entropy by using the observation matrix B (which coincide with the signal)
+%% Linear Gaussian Estimation of entropy
+% Computes entropy by using the observation matrix B (which coincides with the signal)
 
 % INPUT: embedding matrix B
 % OUTPUT: entropy Hy
