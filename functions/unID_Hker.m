@@ -1,5 +1,5 @@
 %% Kernel Estimation of entropy
-% Computes entropy by using the observation matrix B (which coincide with the signal)
+% Computes entropy by using the observation matrix B (which coincides with the signal)
 
 % INPUT: embedding matrix B, distance threshold r, distance metric:
 % 'maximum' Chebyshev distance ['c'](default), normalized distance ['r'],
