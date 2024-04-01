@@ -1,4 +1,4 @@
-%% Entropy of a discrete multidimensional variable A
+%% Entropy of a discrete multidimensional variable
 
 %%% INPUT
 % A: Np*d matrix, realizations discrete d-dimensional vector variable, Np observations
