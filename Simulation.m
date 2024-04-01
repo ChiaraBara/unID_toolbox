@@ -77,7 +77,6 @@ for ir = 1:length(vecr)
 end
 
 %% plot
-
 figure(1);
 % lin
 a1 = subplot(2,3,1);
