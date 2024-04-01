@@ -7,13 +7,11 @@ addpath([pwd,'/functions/']);
 N = 300; % time series length
 vecr = [0:0.1:0.9]; % strength of the stochastic oscillation
 f = 0.25; % frequency of the stochastic oscillation
-
 M = 1; %n. of time series
 p = 3; % maximum lag
 
 %% Parameter of the estimators
 base = 2; % 0: natural, 2: bits
-
 m = 3; %memory of the process 
 k = 10; %nearest neighbor: number of neighbors
 r = 0.3; %kernel: threshold distance
