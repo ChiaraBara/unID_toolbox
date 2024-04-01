@@ -1,4 +1,4 @@
-%% Binning Estimation of the Conditional Entropy
+%% Binning Estimation of entropy
 % Computes entropy by using the observation matrix B (which coincide with the signal)
 
 % INPUT: embedding matrix B, number of quantization bins b, log base 
