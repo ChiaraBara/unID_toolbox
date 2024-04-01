@@ -1,4 +1,4 @@
-%% Kernel Estimation of the Conditional Entropy
+%% Kernel Estimation of entropy
 % Computes entropy by using the observation matrix B (which coincide with the signal)
 
 % INPUT: embedding matrix B, distance threshold r, distance metric:
