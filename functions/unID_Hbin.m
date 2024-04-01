@@ -1,5 +1,5 @@
 %% Binning Estimation of entropy
-% Computes entropy by using the observation matrix B (which coincide with the signal)
+% Computes entropy by using the observation matrix B (which coincides with the signal)
 
 % INPUT: embedding matrix B, number of quantization bins b, log base 
 % OUTPUT: entropy Hy
