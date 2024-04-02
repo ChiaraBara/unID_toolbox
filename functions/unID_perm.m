@@ -7,7 +7,7 @@
 
 function out=unID_perm(B,base)
 
-    A = B; A(:,1)=[];
+    A=B(:,2:end);
     
     %%% ranking procedure
     [~,Bp]=sort(B,2); [~,Bp]=sort(Bp,2); 
