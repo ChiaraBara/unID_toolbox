@@ -29,7 +29,7 @@ function out = unID_slope(B,delta,gamma,base)
         end
     end
 
-    As = Bs; As(:,1)=[];
+    As=Bs(:,2:end);
 
     HyY = unID_H(Bs,base);
     HY = unID_H(As,base);
