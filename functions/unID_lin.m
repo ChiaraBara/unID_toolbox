@@ -11,7 +11,7 @@ function out=unID_lin(B)
 
     %% compute Conditional entropy
     Yb=B(:,1)'; % inversion works with data organized in rows
-    A=B; A(:,1)=[]; Z=A';
+    A=B(:,2:end); Z=A';
     
     m=size(A,2);
 
