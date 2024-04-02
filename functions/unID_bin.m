@@ -12,7 +12,7 @@ function out=unID_bin(B,b,base)
     for im=1:M
         Bq(:,im)=unID_quantization(B(:,im),b);
     end
-    Aq = Bq; Aq(:,1)=[];
+    Aq=Bq(:,2:end);
     
     HyY=unID_H(Bq,base);
     HY=unID_H(Aq,base);
