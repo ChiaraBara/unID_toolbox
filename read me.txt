@@ -1,8 +1,8 @@
 unID - Matlab toolbox for the estimation of the Information Decomposition terms in the univariate framework
 
 References:
-- C Barà, R Pernice, CA Catania, M Hilal, A Porta, A Humeau-Heurtier, L Faes, 'Comparison of Entropy Rate Measures for the Evaluation of Time Series Complexity: Simulations and Application to Heart Rate and Respiratory Variability'. Submitted to Biocybernetics and Biomedical Engineering, 2023.
-- W Xiong, L Faes, P Ch Ivanov, 'Entropy measures, entropy estimators and their performance in quantifying complex dynamics: effects of artifacts, nonstationarity and long-range correlations', Phys. Rev. E, 2017; 95:062114.
+- C Barà, R Pernice, CA Catania, M Hilal, A Porta, A Humeau-Heurtier, L Faes, 'Comparison of Entropy Rate Measures for the Evaluation of Time Series Complexity: Simulations and Application to Heart Rate and Respiratory Variability'. Biocybernetics and Biomedical Engineering, 2024, 44.2: 380-392.
+- W Xiong, L Faes, P Ch Ivanov, 'Entropy measures, entropy estimators and their performance in quantifying complex dynamics: effects of artifacts, nonstationarity and long-range correlations', Phys. Rev. E, 2017, 95:062114.
 
 Demonstration scripts
 _____________________
